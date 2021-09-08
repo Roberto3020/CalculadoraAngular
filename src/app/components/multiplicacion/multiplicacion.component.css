@@ -1,0 +1,118 @@
+.multiplicacion {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    width: 110px;
+    height: 40px;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 500px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.titulo {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.multiplicacion:hover {
+    background-color: red;
+    color: white;
+}
+
+.multiplicacion:active {
+    transform: translateY(4px);
+}
+
+#numero1 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 500px;
+    height: 20px;
+}
+
+#numero2 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 500px;
+    height: 20px;
+}
+
+.numero1 {
+    position: absolute;
+    margin-left: 365px;
+    margin-top: 50px;
+}
+
+.numero2 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 365px;
+}
+
+.formulario {
+    margin-left: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.rt {
+    width: 153px;
+    margin-left: 5px;
+    border: none;
+    padding-bottom: -2px;
+    padding-right: 40px;
+    position: absolute;
+    text-align: center;
+    background: center;
+    color: white;
+    font-size: 22px;
+}
+
+.banner2 {
+    border: 2px solid rgb(57, 57, 255);
+    width: 25%;
+    height: 40px;
+    padding: 8px;
+    margin-left: 780px;
+    position: absolute;
+    margin-top: 190px;
+    font-size: 20px;
+}
+
+.social {
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+.social .footer {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: wheat;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links i {
+    margin: 10px;
+    font-size: 2rem;
+}
+
+img {
+    margin-left: 70px;
+}
+
+.info {
+    margin-left: 120px;
+    margin-right: 550px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+}

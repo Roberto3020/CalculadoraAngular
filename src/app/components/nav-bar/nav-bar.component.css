@@ -1,0 +1,12 @@
+li:hover {
+    background-color: rgb(182, 64, 43);
+    color: white;
+}
+
+li:active {
+    transform: translateY(4px);
+}
+
+a:hover {
+    border-bottom: 2px solid #ffffff;
+}

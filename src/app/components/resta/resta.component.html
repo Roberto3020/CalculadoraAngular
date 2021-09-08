@@ -1,0 +1,32 @@
+<div>
+    <div>
+        <h1 class="titulo">Operaciones Matematicas Resta</h1>
+    </div>
+    <div class="formulario">
+        <label class="numero1" for="numero1">Ingrese numero 1</label>
+        <input type="number" id="numero1" [(ngModel)]="numero1" placeholder="Digite un numero">
+        <label class="numero2" for="numero2">Ingrese numero 2</label>
+        <input type="number" id="numero2" [(ngModel)]="numero2" placeholder="Digite un numero">
+
+        <button class="suma" type="submit" (click)="calcularResta()">Restar</button>
+    </div>
+    <div class="banner2">
+        <label class="resultado" for="resultado">Su resultado es: {{resultado}}</label>
+    </div>
+    <div>
+        <img src="../../../assets/images/RestaAlgebraicaPositiva.jpg" alt="Operadores">
+        <p class="info">La resta o la sustracción es una operación aritmética que se representa con el signo; representa la operación de eliminación de objetos de una colección. Por ejemplo, en la imagen de la derecha hay 5 − 2 manzanas; significando 5 manzanas con 2
+            quitadas, con lo cual hay un total de 3 manzanas. Por lo tanto, 5 − 2 = 3.</p>
+    </div>
+    <div>
+        <div>
+            <section class="social">
+                <p class="footer">ROBERTO ORCASITA</p>
+                <div class="links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </section>
+        </div>
+    </div>

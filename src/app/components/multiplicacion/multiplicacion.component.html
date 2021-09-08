@@ -1,0 +1,31 @@
+<div>
+    <div>
+        <h1 class="titulo">Operaciones Matematicas Multiplicacion</h1>
+    </div>
+    <div class="formulario">
+        <label class="numero1" for="numero1">Ingrese numero 1</label>
+        <input type="number" id="numero1" [(ngModel)]="numero1" placeholder="Digite un numero">
+        <label class="numero2" for="numero2">Ingrese numero 2</label>
+        <input type="number" id="numero2" [(ngModel)]="numero2" placeholder="Digite un numero">
+
+        <button class="multiplicacion" type="submit" (click)="calcularMultiplicacion()">Multiplicacion</button>
+    </div>
+    <div class="banner2">
+        <label class="resultado" for="resultado">Su resultado es: {{resultado}}</label>
+    </div>
+    <div>
+        <img class="ope" src="../../../assets/images/multipartes.png" alt="Operadores">
+        <p class="info">La multiplicación es una operación binaria que se establece en un conjunto numérico.​ En aritmética, es una de las cuatro operaciones elementales, junto con la suma, la resta y la división, y es la operación inversa de esta última.</p>
+    </div>
+    <div>
+        <div>
+            <section class="social">
+                <p class="footer">ROBERTO ORCASITA</p>
+                <div class="links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </section>
+        </div>
+    </div>
