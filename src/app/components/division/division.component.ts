@@ -14,6 +14,13 @@ export class DivisionComponent implements OnInit {
   ngOnInit(): void {
   }
   calcularDivision():void{
+  if (this.numero1 === 0 || this.numero2 == 0){
+      window.confirm("Debe ingresar un numero mayor a 0")
+    } 
+    
+    
+
     this.resultado = this.numero1  / this.numero2
-  }
+  
+}
 }

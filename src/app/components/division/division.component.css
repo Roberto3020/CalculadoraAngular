@@ -6,8 +6,8 @@
     height: 30px;
     font-size: 15px;
     position: absolute;
-    margin-top: 100px;
-    margin-left: 500px;
+    margin-top: 180px;
+    margin-left: 520px;
     font-family: cursive;
     font-weight: bold;
 }
@@ -29,25 +29,27 @@
 
 #numero1 {
     position: absolute;
+    margin-top: 100px;
     margin-left: 500px;
     height: 20px;
 }
 
 #numero2 {
     position: absolute;
-    margin-top: 40px;
+    margin-top: 140px;
     margin-left: 500px;
     height: 20px;
 }
 
 .numero1 {
     position: absolute;
+    margin-top: 100px;
     margin-left: 365px;
 }
 
 .numero2 {
     position: absolute;
-    margin-top: 40px;
+    margin-top: 140px;
     margin-left: 365px;
 }
 
@@ -61,7 +63,8 @@
     margin-left: 5px;
     border: none;
     padding-bottom: 6px;
-    padding-right: 40px;
+    padding-right: 50px;
+    padding-left: 20px;
     position: absolute;
     text-align: center;
     background: center;
@@ -70,13 +73,13 @@
 }
 
 .banner2 {
-    border: 2px solid rgb(57, 57, 255);
+    border: 2px solid rgb(218, 3, 3);
     width: 25%;
     height: 40px;
     padding: 8px;
-    margin-left: 780px;
+    margin-left: 800px;
     position: absolute;
-    margin-top: 170px;
+    margin-top: 250px;
     font-size: 20px;
 }
 
